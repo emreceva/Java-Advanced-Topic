@@ -21,6 +21,15 @@ public class Reducing {
         System.out.println("result3 = " + max.get());
         System.out.println("result4 = " + sum.get());
 
+        //Task
+        int dishCount1 = DishData.getAll().stream().map(d-> 1).reduce(0,(a,b)->(a+b));
+        System.out.println("dishCount1 = " + dishCount1);
+
+        long dishCount2 = DishData.getAll().stream().count();
+        System.out.println("dishCount2 = " + dishCount2);
+
+
+
 
 
 
