@@ -1,13 +1,16 @@
 package review;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
+
+import java.util.Objects;
 
 @Data
 @AllArgsConstructor
 @Builder
+
 public class Customer {
+
+
     private String firstName;
     private String lastName;
     private String email;

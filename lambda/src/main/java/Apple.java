@@ -1,4 +1,6 @@
+
 public class Apple {
+
     private int weight;
     private Color color;
 

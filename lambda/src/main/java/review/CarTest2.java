@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class CarTest2 {
+
     public static void main(String[] args) {
         List<Car> carList = new ArrayList<>();
 
@@ -39,4 +40,3 @@ public class CarTest2 {
         return result;
     }
 }
-

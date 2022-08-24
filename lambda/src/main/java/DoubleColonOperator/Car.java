@@ -3,15 +3,14 @@ package DoubleColonOperator;
 import lombok.Getter;
 import lombok.Setter;
 
-
 @Getter
 @Setter
 public class Car {
+
     private String make;
     private int model;
 
-    public Car(){
-
+    public Car() {
     }
 
     public Car(int model) {
