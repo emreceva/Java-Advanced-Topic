@@ -10,7 +10,7 @@ public class TransactionTest {
         System.out.println("**********Task1**************");
         TransactionData.getAll().stream()
                 .filter(transaction -> transaction.getYear() == 2000)
-                .sorted(comparing(Transaction::getValue))
+                .sorted(    comparing(Transaction::getValue))
                 .forEach(System.out::println);
         //2- What are all the unique cities where the traders work?
         System.out.println("**********Task2**************");
